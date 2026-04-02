@@ -1,16 +1,39 @@
-# React + Vite
+# GitHub Analyzer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + Vite project I built during my internship in January 2026.
+It uses the GitHub API to analyze GitHub profiles — search users,
+view their repos, contribution stats, and more.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React (with Vite)
+- Tailwind CSS
+- GitHub REST API
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Clone the repo and install dependencies:
+```bash
+npm install
+```
 
-## Expanding the ESLint configuration
+Create a `.env` file in the root and add your GitHub token:
+```
+VITE_GITHUB_TOKEN=your_token_here
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Then run:
+```bash
+npm run dev
+```
+
+## About
+
+Built this during my internship period (Jan 2026) as one of the 
+assigned projects. Good exposure to working with third-party APIs 
+and structuring a React app from scratch under a real internship 
+environment.
+
+## Note
+
+Don't push your `.env` file to GitHub. Learnt that the hard way lol.
