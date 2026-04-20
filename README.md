@@ -7,7 +7,7 @@ view their repos, contribution stats, and more.
 ## Tech Stack
 
 - React (with Vite)
-- Tailwind CSS
+- CSS3
 - GitHub REST API
 
 ## Getting Started
