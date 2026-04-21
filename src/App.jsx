@@ -678,7 +678,7 @@ export default function App() {
       )}
 
       <footer className="app-footer">
-        GitHub Profile Analyzer · Built with React &amp; Recharts
+       GitHub Profile Analyzer · Built By <b style={{ color: "#00ffA3" }}>Vivek Narsale</b>
       </footer>
     </div>
   );
